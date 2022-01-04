@@ -1,1 +1,32 @@
-test
+<!DOCTYPE html>
+<html lang="ba">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Prijava</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+</style>
+</head>
+<body>
+      <div class="box">
+        <div style="text-align: center;"><img src="./google.png" width="100px"></div>
+        <h2>Prijava</h2>
+        <p>Nastavi na Gmail</p>
+        <form>
+          <div class="inputBox">
+            <input type="email" name="email" required onkeyup="this.setAttribute('value', this.value);"  value="">
+            <label>Adresa e-pošte</label>
+          </div>
+            <p style="float: left; color: #1a73e8; padding: 0; margin: 0;">Zaboravili ste adresu e-pošte?</p><br><br>
+            <p style="float: left;">Ako ovo nije vaš računar, koristite privatni prozor da se prijavite. <a style="color: #1a73e8; text-decoration: transparent;" href="https://support.google.com/accounts/answer/2917834?visit_id=637769167569372962-251117921&p=signin_privatebrowsing&hl=bs&rd=1">Saznajte više</a></p><br><br>
+          <!-- <div class="inputBox">
+            <input type="text" name="text" required onkeyup="this.setAttribute('value', this.value);" value="">
+            <label>Lozinka</label>
+          </div> -->
+          <input type="submit" name="sign-in" value="Naprijed">
+        </form>
+      </div>
+</body>
+</html>
